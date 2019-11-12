@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ryota作品No.2</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <h3>第2作目(2019/11/12完成)</h3>
+        </div>
+        <div class="header-right">
+          <div class="login" id="login-show">ログイン</div>
+        </div>
+      </div>
+    </header>
+    <div class="login-modal-wrapper" id="login-modal">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-2x fa-times"></i>
+        </div>
+        <div id="login-form">
+          <h2>Emailログイン</h2>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="メールアドレス">
+            <input class="form-control" type="password" placeholder="パスワード">
+            <div id="submit-btn">ログイン</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="top-wrapper">
+      <div class="container">
+        <h2>第2作目</h2>
+        <h2>〜第1作品目にJavScriptのコードを追加しました〜</h2>
+        <h2>まずは右上のログインをクリックしてみてください(仮ログインフォームが表示されます)</h2>
+        <div class="btn-wrapper">
+          <div class="btn signup" id="change-color">文章の色を変える</div>
+          <h2 id="text-color">この文章の色が変わります</h2>
+          <div class="btn facebook" id="hide-text">文章を隠す</div>
+          <h2 id="text">この文章が隠れます</h2>
+          <div class="btn text-change" id="text-change">文章の変更</div>
+          <h2 class="h2-red" id="new-text">この文章が変わります</h2>
+        </div>  
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <h2 class="slide-title">写真集</h2>
+      <h3>スライド式にしました</h3>
+        <div class="change-btn-wrapper">
+          <div class="change-btn prev-btn">← 前へ</div>
+          <div class="change-btn next-btn">次へ →</div>
+        </div>
+        <ul class="slides">
+          <li class="slide active"><img src="img/清水寺京都.jpg"></li>
+          <li class="slide"><img src="img/京都の竹.jpg"></li>
+          <li class="slide"><img src="img/伏見稲荷大社.jpg"></li>
+          <li class="slide"><img src="img/渡月橋.jpg"></li>
+          <li class="slide"><img src="img/西沢渓谷山梨.jpg"></li>
+          <li class="slide"><img src="img/西沢渓谷2.jpg"></li>
+          <li class="slide"><img src="img/西沢渓谷3.jpg"></li>
+          <li class="slide"><img src="img/西沢渓谷4.jpg"></li>
+          <li class="slide"><img src="img/西沢渓谷5.jpg"></li>
+          <li class="slide"><img src="img/ナイアガラの滝.jpg"></li>
+          <li class="slide"><img src="img/ホワイトロック.jpg"></li>
+          <li class="slide"><img src="img/カナダの湖.jpg"></li>
+          <li class="slide"><img src="img/コキア茨城.jpg"></li>
+          <li class="slide"><img src="img/ブッチャードガーデン.jpg"></li>
+          <li class="slide"><img src="img/サンフランシスコ.jpg"></li>
+          <li class="slide"><img src="img/9と4分の3番線.jpg"></li>
+          <li class="slide"><img src="img/シャーロックホームズ.jpg"></li>
+          <li class="slide"><img src="img/カンタベリー.jpg"></li>
+          <li class="slide"><img src="img/カンタベリー大聖堂.jpg"></li>
+          <li class="slide"><img src="img/カンタベリー大聖堂2.jpg"></li>
+        </ul>
+        <div class="index-btn-wrapper">
+          <div class="index-btn">1</div>
+          <div class="index-btn">2</div>
+          <div class="index-btn">3</div>
+          <div class="index-btn">4</div>
+          <div class="index-btn">5</div>
+          <div class="index-btn">6</div>
+          <div class="index-btn">7</div>
+          <div class="index-btn">8</div>
+          <div class="index-btn">9</div>
+          <div class="index-btn">10</div>
+          <div class="index-btn">11</div>
+          <div class="index-btn">12</div>
+          <div class="index-btn">13</div>
+          <div class="index-btn">14</div>
+          <div class="index-btn">15</div>
+          <div class="index-btn">16</div>
+          <div class="index-btn">17</div>
+          <div class="index-btn">18</div>
+          <div class="index-btn">19</div>
+          <div class="index-btn">20</div>
+        </div>
+    </div>    
+    <div class="faq-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2 class="faq-h2">FAQ</h2>
+
+        </div>
+        <div class="faq">
+          <ul id="faq-list">
+            <li class="faq-list-item">
+              <h3 class="question">撮影したカメラはなに？</h3>
+              <span>+</span>
+              <div class="answer">
+                <p>iPhoneで撮りました。Instagramで加工しています。</p>
+              </div>
+            </li>
+            <li class="faq-list-item">
+              <h3 class="question">プログラミングの学習時間は1日どのくらい？</h3>
+              <span>+</span>
+              <div class="answer">
+                <p>勤務後に勉強しています。平日は1時間くらいです。</p>
+              </div>
+            </li>
+            <li class="faq-list-item">
+              <h3 class="question">なんでプログラミングを勉強してるの？</h3>
+              <span>+</span>
+              <div class="answer">
+                <p>ノマドを目指しているからです。</p>
+              </div>
+            </li>
+            <li class="faq-list-item">
+              <h3 class="question">ここまで見てくれた方々に一言！</h3>
+              <span>+</span>
+              <div class="answer">
+                <p>最後までご覧いただき、ありがとうございました！</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <footer>
+      <div class="container">
+        <p>このサイトはサンプルページです</p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
